@@ -1,0 +1,12 @@
+<view class="page">
+  <canvas 
+    type="2d" 
+    id="statusCanvas" 
+    class="canvas"
+    style="width: {{canvasWidth}}px; height: {{canvasHeight}}px;"
+  ></canvas>
+  
+  <view class="button-container">
+    <button class="save-btn" bindtap="saveImage">保存图片</button>
+  </view>
+</view> 
