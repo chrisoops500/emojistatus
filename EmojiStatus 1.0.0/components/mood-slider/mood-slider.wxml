@@ -1,0 +1,20 @@
+<view class="mood-slider">
+  <view class="slider-title">{{name}}</view>
+  <view class="slider-desc">{{description}}</view>
+  <slider 
+    min="1" 
+    max="5" 
+    step="1" 
+    value="{{value}}" 
+    show-value
+    activeColor="#1890ff"
+    backgroundColor="#eee"
+    block-size="28"
+    bindchange="handleChange"
+  />
+  <view class="slider-labels">
+    <text>较低</text>
+    <text>一般</text>
+    <text>较高</text>
+  </view>
+</view> 
